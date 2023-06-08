@@ -1,0 +1,66 @@
+                                  Intro to JS
+
+There set of types in js are two : primitive values and objects
+
+---> Primitive values.(immutable datum)
+    . String
+    . Boolean
+    . Null
+    . Undefined
+    . Number 
+    . BigInt
+    . Symbol
+
+console.log(typeof <value>) //will return type of the value
+console.log(typeof "hello_world") //will return string
+console.log(typeof 12) //will return number
+console.log(typeof null) //will return object   //Corner Case
+console.log(typeof Undefined) //will return Undefined
+
+In js string can be written with backticks as well
+// console.log(`Hey there wassup`)  backticks string example,
+
+Objects in js are made up of key value pairs
+JS treats 0 and -0 differently.
+
+
+--->Variables in JS
+
+Three ways to initialize variables in JS
+    . let
+    . const
+    . var
+everyone one of them has there own use cases
+
+
+---> Operators in JS
+            Airthmetic Operators
+                +,-,*,/,%
+
+            Assignment Operators
+                =,+=,-=,*=,/=,%=
+
+            Logical Operators
+                Logical AND = &&
+                Logical OR = ||
+                Logical NOT = !
+
+            Comparision Operators
+                >,>=,<=,<,!=,==,===,!==
+                "!=" : abstract not equal to
+                "!=="  : strict not equal to
+                "==" : absttract equal to 
+                "===" : strict equal to
+            String based Operators
+                + : Concatenate Operator
+            Bitwise Operator
+                Bitwise AND : &
+                Bitwise OR : |
+                Bitwise XOR : ^
+                Bitwise NOT : ~
+                left shift : <<   //4<<1 = 8
+                right shift : >>  //8>>1 = 4
+            Ternary Operator(not a basic Operator)
+                ?: = (condition)?(expression 1):(expression 2)
+                if true then expression1 else expression 2
+                
