@@ -14,7 +14,7 @@ const bot = new Telegraf('5705838954:AAGJNoNY8Xl8Ok9skMA4kTMZk5Jehr6oeLY');
 
 
 bot.start((ctx) => {
-    ctx.reply(`Chl na be laude
+    ctx.reply(`Chl na be laude 
 /commands likh ke dekh`);
 });
 bot.help((ctx) => {
