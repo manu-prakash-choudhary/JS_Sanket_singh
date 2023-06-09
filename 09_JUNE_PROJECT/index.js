@@ -50,7 +50,7 @@ if (result !== -1) {
 `);
 });
 
-// 3. Start the bot using bot.launch() method
+// Start the bot using bot.launch() method
 bot.launch();
 
 
