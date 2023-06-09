@@ -15,6 +15,6 @@ const bot = new Telegraf('5705838954:AAGJNoNY8Xl8Ok9skMA4kTMZk5Jehr6oeLY');
 bot.start((ctx) => { ctx.reply('Chl na be laude') });
 bot.help((ctx) => { ctx.reply('10 rupaye doge toh ek raaj ki baat btaunga') });
 
-// 3. Start the bot using bot.launch() method
+// 3. Start the bot using bot.launch() methodm
 bot.launch();
 
