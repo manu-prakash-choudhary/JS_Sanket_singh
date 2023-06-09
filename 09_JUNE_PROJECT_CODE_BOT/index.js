@@ -245,6 +245,12 @@ bot.command('linearSearchJs', (ctx) => {
 
 
 
+// add auto complete feature while typing commands
+bot.hears('hello', (ctx) => {
+    ctx.reply(`
+    Hello ${ctx.from.username} 
+    `);
+});
 
 
 
