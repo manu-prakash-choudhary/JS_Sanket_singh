@@ -5,6 +5,7 @@
 
 // 1. Import telegraf
 const { Telegraf } = require('telegraf');
+const { axios } = require('axios');
 
 // 2. Create a bot using the token provided by BotFather
 // const Bot = new Telegraf('YOUR_TOKEN');
