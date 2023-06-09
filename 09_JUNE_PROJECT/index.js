@@ -12,8 +12,24 @@ const bot = new Telegraf('5705838954:AAGJNoNY8Xl8Ok9skMA4kTMZk5Jehr6oeLY');
 
 
 
-bot.start((ctx) => { ctx.reply('Chl na be laude') });
-bot.help((ctx) => { ctx.reply('10 rupaye doge toh ek raaj ki baat btaunga')});
+bot.start((ctx) => {
+    ctx.reply(`Chl na be laude
+/commands likh ke dekh`);
+});
+bot.help((ctx) => {
+    ctx.reply(`
+/binarySearchJs
+/bubbleSortJs
+/insertionSortJs
+/selectionSortJs
+/quickSortJs
+/mergeSortJs
+/linearSearchJs
+/start
+/help
+/commands
+    `)
+});
 
 bot.command('binarySearchJs', (ctx) => {
     ctx.reply(`
@@ -53,16 +69,16 @@ if (result !== -1) {
 // show the list of commands while user types /commands
 bot.command('commands', (ctx) => {
     ctx.reply(`
-    /binarySearchJs
-    /bubbleSortJs
-    /insertionSortJs
-    /selectionSortJs
-    /quickSortJs
-    /mergeSortJs
-    /linearSearchJs
-    /start
-    /help
-    /commands
+/binarySearchJs
+/bubbleSortJs
+/insertionSortJs
+/selectionSortJs
+/quickSortJs
+/mergeSortJs
+/linearSearchJs
+/start
+/help
+/commands
     `);
 });
 
