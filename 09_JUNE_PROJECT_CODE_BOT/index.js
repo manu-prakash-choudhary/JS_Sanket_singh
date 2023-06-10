@@ -355,3 +355,4 @@ bot.on('sticker', (ctx) => {
 // Start the bot using bot.launch() method
 bot.launch();
 
+console.log("Zindagi")
