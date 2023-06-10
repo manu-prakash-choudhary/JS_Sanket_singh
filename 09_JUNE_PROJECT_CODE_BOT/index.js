@@ -356,4 +356,4 @@ bot.on('sticker', (ctx) => {
 bot.launch();
 
 
-
+console.log("Bot is running")
