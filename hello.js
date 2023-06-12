@@ -4,6 +4,7 @@ function fetchdata(data) {
         resolve(`data fetch succesfully ${data}`)
     })
    
+    
 }
 let x = fetchdata("asdfdf")
 x.then((value => {
