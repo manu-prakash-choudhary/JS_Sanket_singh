@@ -3,7 +3,7 @@ function fetchdata(data) {
     return new Promise((resolve, reject) => {
         resolve(`data fetch succesfully ${data}`)
     })
-    
+   
 }
 let x = fetchdata("asdfdf")
 x.then((value => {
