@@ -19,6 +19,9 @@ console.log(typeof Undefined) //will return Undefined
 
 In js string can be written with backticks as well
 // console.log(`Hey there wassup`)  backticks string example,
+sadfsadf
+asddfasd
+
 
 Objects in js are made up of key value pairs
 JS treats 0 and -0 differently.
